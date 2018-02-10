@@ -6,6 +6,11 @@
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+#about {
+  background-color: #010828;
 }
 .text-muted {
   color: #777777;

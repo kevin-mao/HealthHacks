@@ -8,9 +8,19 @@ body {
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 }
+h1, h2, h3, p, div, a {
+  color: white;
+}
 
-#about {
+
+#about, #who, #prizes, #schedule, #sponsors, #judges, #faq, #contact{
   background-color: #010828;
+}
+
+
+.aboutContent {
+  text-align:left;
+  color: white;
 }
 .text-muted {
   color: #777777;
@@ -185,7 +195,7 @@ fieldset[disabled] .btn-xl.active {
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1px;
-  color: black;/*white;*/
+  color: white;/*white;*/
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
@@ -232,7 +242,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-custom.affix {
-    background-color: #fff;/*#222222;*/
+    background-color: black;/*#222222;*/
     padding: 30px 0;
 }
 

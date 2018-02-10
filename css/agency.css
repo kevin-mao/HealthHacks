@@ -241,7 +241,7 @@ fieldset[disabled] .btn-xl.active {
 
 header {
   height:1141px;
-  background-image: url('../img/city_sky_2000.jpg');
+  background-image: url('../img/city_sky_gradient.png');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -570,7 +570,7 @@ aside.clients img {
 }
 section#contact {
   background-color: #222222;
-  background-image: url('../img/map-image.png');
+  /*background-image: url('../img/map-image.png');*/
   background-position: center;
   background-repeat: no-repeat;
 }

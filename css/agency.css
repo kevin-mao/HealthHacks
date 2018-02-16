@@ -21,6 +21,39 @@ h1, h2, h3, p, div, a {
   color: white;
 }
 
+/*animations*/
+
+         
+.animatedFast {
+  -webkit-animation-duration:4s;
+  animation-duration: 4s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.animatedSlow {
+  animation-delay: 1s;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
 
 .aboutContent {
   text-align:left;
@@ -246,7 +279,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-custom.affix {
-    background-color: black;/*#222222;*/
+    background-color: #010828;/*#222222;*/
     padding: 30px 0;
 }
 
@@ -270,6 +303,8 @@ header {
   -o-background-size: cover;
   text-align: center;
   color: white;
+  overflow-x: hidden;
+
 }
 header .intro-text {
   padding-top: 150px;
@@ -307,11 +342,13 @@ header .intro-text .intro-heading {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 75px;
+    font-size: 100px;
     line-height: 75px;
     margin-bottom: 50px;
   }
 }
+
+
 section {
   padding: 100px 0;
 }

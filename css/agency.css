@@ -17,6 +17,10 @@ h1, h2, h3, p, div, a {
   background-color: #010828;
 }
 
+#faq{
+  color: white;
+}
+
 
 .aboutContent {
   text-align:left;
@@ -279,6 +283,7 @@ header .intro-text .intro-lead-in {
   margin-bottom: 25px;
 }
 header .intro-text .intro-heading {
+  color: white;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -776,7 +781,7 @@ body {
 }
 
 .question{
-        color:#000;
+        color: white;
         font-family:Inconsolata,monospace;
         margin:1rem auto;
     }

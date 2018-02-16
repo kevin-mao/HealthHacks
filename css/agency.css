@@ -5,6 +5,7 @@
  */
 body {
   overflow-x: hidden;
+  width: 100%;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 }
@@ -254,7 +255,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
   color: white;
-  background-color: #fec503;
+  background-color: #7cbae5;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -292,8 +293,16 @@ fieldset[disabled] .btn-xl.active {
 
 @media (max-width: 768px) {
     .navbar-custom.navbar-fixed-top {
-	background-color: #fff;/*#222222;*/
+	background-color: #010828;/*#222222;*/
 	padding: 30px 0;
+    }
+
+    iframe{
+      width: 90%;
+    }
+
+    div,.section-heading{
+      padding-left: 10px;
     }
 }
 

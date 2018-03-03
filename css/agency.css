@@ -5,7 +5,7 @@
  */
 body {
   overflow-x: hidden;
-  width: 100%;
+  min-width: 100%;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 }
@@ -28,7 +28,7 @@ h1, h2, h3, p, div, a {
 
 /*animations*/
 
-         
+
 .animatedFast {
   -webkit-animation-duration:4s;
   animation-duration: 4s;
@@ -37,7 +37,7 @@ h1, h2, h3, p, div, a {
 }
 .animatedMed{
   animation-delay: 1s;
-   -webkit-animation-duration:3s;
+  -webkit-animation-duration:3s;
   animation-duration: 3s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
@@ -300,25 +300,33 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-custom.affix {
-    background-color: #010828;/*#222222;*/
-    padding: 30px 0;
+  background-color: #010828;/*#222222;*/
+  padding: 30px 0;
 }
+
 
 @media (max-width: 768px) {
-    .navbar-custom.navbar-fixed-top {
-	background-color: #010828;/*#222222;*/
-	padding: 30px 0;
-    }
+  .navbar-custom.navbar-fixed-top {
+    background-color: #010828;/*#222222;*/
+    padding: 30px 0;
+  }
 
-    iframe{
-      width: 90%;
-    }
+  iframe{
+    width: 90%;
+  }
 
-    div,.section-heading{
-      padding-left: 10px;
-    }
+  div,.section-heading{
+    padding-left: 10px;
+  }
 }
 
+@media (max-width: 530px){
+  #faq img {
+    height: 80%;
+    width: 80%;
+  }
+
+}
 
 header {
   height:1141px;
@@ -351,7 +359,7 @@ header .intro-text .intro-heading {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 40px;
   line-height: 50px;
   margin-bottom: 25px;
 }
@@ -363,7 +371,7 @@ header .intro-text .intro-heading {
   header .intro-text .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 40px;
     margin-bottom: 25px;
   }
@@ -378,7 +386,7 @@ header .intro-text .intro-heading {
 }
 
 #faq .col-sm-6 h3 {
-  font-size: 45px;
+  font-size: 35px;
 }
 
 
@@ -646,7 +654,7 @@ section h3.section-subheading {
 .team-member img {
   margin: 0 auto;
   border: 7px solid white;
-    color: white;
+  color: white;
 }
 .team-member h4 {
   margin-top: 25px;
@@ -852,15 +860,15 @@ body {
 }
 
 .question{
-        color: white;
-        font-family:Inconsolata,monospace;
-        margin:1rem auto;
-    }
+  color: white;
+  font-family:Inconsolata,monospace;
+  margin:1rem auto;
+}
 
 .answer{
-        color:#99a;
-        line-height:1.618;
-        padding-bottom:1rem;
-        padding-left:2rem;
-    }
+  color:#99a;
+  line-height:1.618;
+  padding-bottom:1rem;
+  padding-left:2rem;
+}
 

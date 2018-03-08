@@ -181,8 +181,8 @@ fieldset[disabled] .btn-primary.active {
   background-color: white;
 }
 .btn-xl {
-  background-color: #FFFFFF;
-  color: #7cbae5;
+  background-color: #7cbae5;
+  color: white;
   border-color: #7cbae5;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
@@ -190,6 +190,7 @@ fieldset[disabled] .btn-primary.active {
   border-radius: 3px;
   font-size:20px;
   padding: 20px 40px;
+
 }
 .btn-xl:hover,
 .btn-xl:focus,

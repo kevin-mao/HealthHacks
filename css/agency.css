@@ -17,9 +17,13 @@ h1, h2, h3, p, div, a {
   background-image: -webkit-linear-gradient(#010828, #010828, #010828, #010828 90%, #000000);
 }
 
-#who, #prizes, #schedule, #sponsors, #judges, #faq{
+#who, #prizes, #sponsors, #judges, #faq{
   /*background-color: #010828;*/
   background-image: -webkit-linear-gradient(#000000, #010828 10%, #010828, #010828 90%, #000000);
+}
+
+#schedule{
+  background-image: -webkit-linear-gradient(#000000, #010828 4%, #010828, #010828 96%, #000000);
 }
 
 #contact {
